@@ -1,0 +1,7 @@
+# Ignorer tous les fichiers sauf les .txt
+*
+!*.txt
+
+# Ignorer tous les dossiers sauf les dossiers
+*/
+!*/
