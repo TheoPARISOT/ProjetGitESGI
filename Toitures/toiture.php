@@ -36,4 +36,11 @@ class toiture extends charpente
         echo "Isolation des combles";
         echo "pose de la laine de verre";
     }
+
+    
+    public function reparationsFuite(): void
+    {
+        $this->charpente();
+        echo "Reparations Fuite";
+    }
 }

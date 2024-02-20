@@ -44,9 +44,4 @@ class charpente extends couverture
         echo "Nivellement";
     }
 
-    public function reparationsFuite(): void
-    {
-        $this->charpente();
-        echo "Reparations Fuite";
-    }
 }
