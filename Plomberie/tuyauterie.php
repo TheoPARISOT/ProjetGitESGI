@@ -56,4 +56,13 @@ class tuyauterie
         $this->profondeur = 2;
         $this->tuyauterie();
     }
+
+    public function reparePipe(): variant_mod
+    {
+        $this->creuser(3);
+        $this->hauteur = 6;
+        $this->largeur = 3;
+        $this->profondeur = 2;
+        $this->tuyauterie();
+    }
 }
