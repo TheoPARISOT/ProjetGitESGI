@@ -1,6 +1,7 @@
 # Ignorer tous les fichiers sauf les .txt
 *
 !*.txt
+!*.md
 
 # Ignorer tous les dossiers sauf les dossiers
 */
