@@ -201,4 +201,22 @@ class fenetres
         $this->largeur = 3;
         echo "Porte Fenêtre Fixe";
     }
+
+    public function porteFenetreAvecSerrure()
+    {
+        $this->poignée();
+        $this->serrure();
+        $this->hauteur = 6;
+        $this->largeur = 3;
+        echo "Porte Fenêtre Avec Serrure";
+    }
+
+
+    public function porteFenetreAvecPoignée()
+    {
+        $this->poignée();
+        $this->hauteur = 6;
+        $this->largeur = 3;
+        echo "Porte Fenêtre Avec Poignée";
+    }
 }
