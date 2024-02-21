@@ -35,9 +35,9 @@ class installationGénéral
 
     public function disjoncteur()
     {
-        $this->hauteur = 6;
-        $this->largeur = 3;
-        echo "Disjoncteur";
+        $this->hauteur = 26;
+        $this->largeur = 03;
+        echo "Disjoncteur";//Le bug vient d'ici
     }
 
     public function gaines()
