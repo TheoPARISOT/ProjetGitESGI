@@ -30,7 +30,7 @@ class Installation
 }
 
 // Exemple d'utilisation
-$installation = new Installation("Salon", 3);
+$installation = new Installation("Salon", 1);
 $installation->demarrer();
 $installation->changerVitesse(5);
 $installation->arreter();
