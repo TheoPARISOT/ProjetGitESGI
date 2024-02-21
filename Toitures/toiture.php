@@ -32,6 +32,8 @@ class toiture extends charpente
 
     public function isolationComble(): void
     {
+        $this->hauteur = 6;
+        $this->largeur = 3; //fix eau qui coule
         $this->isolation();
         echo "Isolation des combles";
         echo "pose de la laine de verre";
